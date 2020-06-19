@@ -1,0 +1,173 @@
+/* Conteúdo3 */
+
+.conteudo3{
+    width: 65%;
+    margin: 2em auto .5em;
+    text-align: center;
+}
+
+/* Progress Bar */
+
+*{
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: space-between;
+}
+
+.habilidades li{
+    display: flex;
+    margin: 1em 0;
+}
+
+.xorumeladas{
+    width: 45%;  
+}
+
+.xorumelas{
+    width: 45%;
+}
+
+.xorumelas .img-hab{
+    margin-top: 2em;
+}
+
+.testeloco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar{
+    background-color: #353B48;
+    height: 0.2em;
+    border: 0.1em solid rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    box-shadow: 0 0 0.3em #50fa7b;
+    border-radius: 0.5em;
+    width: 65%;
+    margin: 1.2em 0 0 .8em;
+}
+
+.bar span{
+    height: 0.3em;
+    float: left;
+    background-color: #50fa7b;
+    border-radius: 0.2em;
+}
+
+.sub-titulo33333{
+    text-align: right;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #f1fa8c;
+    border-bottom: solid 1px #f1fa8c;
+    padding-bottom: .7em;
+}
+
+.html{
+    width: 75%;
+    animation: html 2s;
+}
+
+.css{
+    width: 60%;
+    animation: css 2s;
+}
+
+.javascript{
+    width: 25%;
+    animation: javascript 2s;
+}
+
+.unreal{
+    width: 25%;
+    animation: unreal 2s;
+}
+
+.img-hab{
+    width: 2.5em;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes unreal{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+.sub-titulo2321{
+    text-align: left;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #ff5555;
+    border-bottom: solid 1px #ff5555;
+    padding-bottom: .7em;
+}
+
+.sub-conteudo3-2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #f8f8f2;
+}
+
+.rwz{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 28%;
+}
+
+.estudos{
+    width: 7em;
+}
+
+.estudos-resilia{
+    width: 7em;
+}
+
+.estudos-zion{
+    width: 5em;
+}
+
+.txt5-1{
+    flex-grow: 1;
+    margin-top: 1.45em;
+}
+
+.txt5-2{
+    flex-grow: 1;
+}
