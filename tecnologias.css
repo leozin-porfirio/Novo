@@ -1,0 +1,84 @@
+/* Progress Bar */
+
+*{
+    list-style: none;
+    padding: 0;
+}
+
+.bar{
+    background-color: #353B48;
+    height: 0.2em;
+    border: 0.1em solid rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    box-shadow: 0 0 0.3em #50fa7b;
+    border-radius: 0.5em;
+    width: 65%;
+    margin: 1.2em 0 0 .8em;
+}
+
+.bar span{
+    height: 0.3em;
+    float: left;
+    background-color: #50fa7b;
+    border-radius: 0.2em;
+}
+
+.html{
+    width: 75%;
+    animation: html 2s;
+}
+
+.css{
+    width: 60%;
+    animation: css 2s;
+}
+
+.javascript{
+    width: 25%;
+    animation: javascript 2s;
+}
+
+.unreal{
+    width: 25%;
+    animation: unreal 2s;
+}
+
+.img-tec{
+    width: 2.5em;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes unreal{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}

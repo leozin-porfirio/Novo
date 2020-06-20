@@ -1,0 +1,200 @@
+@media (min-width: 0px) and (max-width: 650px) {
+
+    .cabecalho .container {
+        width: 85%;
+    }
+
+    .conteudo1 .container {
+        width: 85%;
+    }
+
+    .conteudo1_sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 100%;
+    }
+
+    .sub_titulo {
+        font-size: 1.2em;
+    }
+
+    .conteudo2 {
+        width: 85%;
+    }
+
+    .conteudo2 .texto {
+        width: 100%;
+    }
+
+    .habilidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tecnologias {
+        width: 100%;
+    }
+
+    .interesses {
+        width: 100%;
+    }
+
+    .conteudo3 {
+        width: 85%;
+        margin: 2em auto .5em;
+    }
+
+    .estudos {
+        flex-direction: column;
+    }
+
+    .formacao {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .sociais {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+    
+    .cabecalho .container {
+        width: 75%;
+    }
+
+    .conteudo1 .container {
+        width: 75%;
+    }
+
+    .conteudo1_sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 100%;
+    }
+
+    .sub_titulo {
+        font-size: 1.2em;
+    }
+
+    .conteudo2 {
+        width: 75%;
+    }
+
+    .conteudo2 .texto {
+        width: 100%;
+    }
+
+    .habilidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tecnologias {
+        width: 100%;
+    }
+
+    .interesses {
+        width: 100%;
+    }
+
+    .conteudo3 {
+        width: 75%;
+        margin: 2em auto .5em;
+    }
+
+    .estudos {
+        flex-direction: column;
+    }
+
+    .formacao {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .sociais {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+
+    .cabecalho .container {
+        width: 65%;
+    }
+
+    .conteudo1 .container {
+        width: 65%;
+    }
+
+    .conteudo1_sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 100%;
+    }
+
+    .sub_titulo {
+        font-size: 1.2em;
+    }
+
+    .conteudo2 {
+        width: 65%;
+    }
+
+    .conteudo2 .texto {
+        width: 100%;
+    }
+
+    .habilidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tecnologias {
+        width: 100%;
+    }
+
+    .interesses {
+        width: 100%;
+    }
+
+    .conteudo3 {
+        width: 65%;
+        margin: 2em auto .5em;
+    }
+
+    .estudos {
+        flex-direction: column;
+    }
+
+    .formacao {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .sociais {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+    .estudos {
+        flex-direction: column;
+    }
+
+    .formacao {
+        width: 80%;
+        margin: 0 auto 1.5em;
+    }
+}

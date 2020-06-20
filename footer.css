@@ -5,23 +5,20 @@ footer{
 }
 
 .sociais{
-    color: #f8f8f2;
     text-align: center;
     margin: 0;
     padding: 1em 0 0.5em;
-    font-size: 1em;
     font-weight: bold;
 }
 
-.lista-sociais{
-    margin: 0 auto;
-    text-align: center;
-    padding: 0;
+.lista_sociais{
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 .img-sociais{
-    display: inline-flex;
-    margin: 0.5em 0.5em 0.8em;
+    margin: 0.5em 1em 0.8em;
 }
 
 .redes{
